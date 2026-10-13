@@ -7,6 +7,10 @@ The project is split into two platform-focused tracks:
 - `Windows/`: a Win32-first detection and response pipeline with recursive folder scanning, multithreaded signature matching, process containment, registry watching, folder telemetry, native alerting, email escalation, and a Detours-backed API-hooking layer prepared for deeper behavioral instrumentation.
 - `Ubuntu/`: a Linux implementation built around C monitoring modules, `/proc` and `inotify`-style visibility, and a Python-based machine learning workflow for offline malware classification.
 
+## Contributors
+
+- Windows implementation and behavioral-analysis pipeline: **Shivanshu Verma**
+- Ubuntu implementation and Linux/ML workflow: **Abhishek Yadav**
 
 ## Project Highlights
 
